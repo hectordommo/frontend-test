@@ -32,3 +32,9 @@ Define tipos apropiados para el estado, las props y los eventos.
 - Inicializa el estado para almacenar un array de tareas.
 - Proporciona funciones para agregar, eliminar y alternar el estado de finalización de las tareas.
 - Pasa el estado y las funciones como props a los componentes TodoList y TodoForm
+
+
+## Instrucciones Adicionales
+Asegúrate de que el código esté bien tipado, evitando el uso del tipo any.
+Considera casos extremos, como manejar envíos de entradas vacías o filtrar una lista vacía.
+Fomenta el uso de características modernas de React, como hooks y componentes funcionales.
