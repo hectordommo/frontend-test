@@ -35,6 +35,6 @@ Define tipos apropiados para el estado, las props y los eventos.
 
 
 ## Instrucciones Adicionales
-Asegúrate de que el código esté bien tipado, evitando el uso del tipo any.
-Considera casos extremos, como manejar envíos de entradas vacías o filtrar una lista vacía.
-Fomenta el uso de características modernas de React, como hooks y componentes funcionales.
+- Asegúrate de que el código esté bien tipado, evitando el uso del tipo any.
+- Considera casos extremos, como manejar envíos de entradas vacías o filtrar una lista vacía.
+- Fomenta el uso de características modernas de React, como hooks y componentes funcionales.
