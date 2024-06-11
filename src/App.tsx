@@ -1,26 +1,20 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
+import Header from './components/Header'
+import TodoForm from './components/TodoForm'
+import TodoList from './components/TodoList'
+import AppContext from './context/AppContext'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App: React.FC = () => {
   return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className='mx-auto max-w-2xl p-4 min-h-screen'>
+      <AppContext>
+        <Header />
+        <TodoForm />
+        <TodoList />
+      </AppContext>
+    </div>
   )
 }
 
 export default App
-
